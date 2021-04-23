@@ -15,3 +15,12 @@ print("{0}{1}{0}".format("abra", "cad"))
 Each argument of the format function is placed in the string at 
 the corresponding position, which is determined using the curly braces { }.
 """
+
+
+#String formatting can also be done with named arguments.
+
+a="{x} {y}".format(x=5, y=12)
+print(a)
+
+str="{c}, {b}, {a}".format(a=5, b=9, c=7)
+print(str)
