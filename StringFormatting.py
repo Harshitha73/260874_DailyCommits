@@ -9,6 +9,8 @@ format method to substitute a number of arguments in the string.
 nums=[10,20,30,40]
 msg="Numbers: {0} {1} {2}".format(nums[0],nums[1],nums[2])
 print(msg)
+
+print("{0}{1}{0}".format("abra", "cad"))
 """
 Each argument of the format function is placed in the string at 
 the corresponding position, which is determined using the curly braces { }.
